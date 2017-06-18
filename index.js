@@ -1,5 +1,4 @@
 const express = require('express');
-const path = require('path');
 const app = express();
 const bodyParser = require('body-parser');
 const mongoose = require('mongoose');
@@ -14,7 +13,7 @@ mongoose.connect(DB);
 app.use(bodyParser.urlencoded({ extended: false }));
 
 app.get('/', function(req, res) {
-    res.redirect('/imagesearch/latest');
+    res.redirect('/imagesearch');
 });
 
 app.use('/imagesearch', imageSearch);
