@@ -14,7 +14,7 @@ mongoose.connect(DB);
 app.use(bodyParser.urlencoded({ extended: false }));
 
 app.get('/', function(req, res) {
-    res.sendFile(path.join(__dirname, './index.html'));
+    res.redirect('/imagesearch/latest');
 });
 
 app.use('/imagesearch', imageSearch);

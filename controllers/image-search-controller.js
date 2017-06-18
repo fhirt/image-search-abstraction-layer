@@ -3,7 +3,7 @@ const ImageSearchModel = require('../models/image-search-model');
 exports.latest = function(req, res, next) {
     ImageSearchModel.find({}, {'_id':0, 'term':1, 'when':1}, function(err, result) {
         if (err) throw err;
-        res.send(result.slice(-15).reverse());
+        res.send(result.slice(-10).reverse());
     });
 };
 
