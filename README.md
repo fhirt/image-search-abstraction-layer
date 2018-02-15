@@ -8,4 +8,4 @@ User Stories:
 3. I can get a list of the most recently submitted search strings.
 
 
-[image-search-app](https://desolate-tor-78096.herokuapp.com/)
+[image-search-app](https://fhirt-image-search-abstraction.herokuapp.com/)
