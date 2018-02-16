@@ -9,3 +9,10 @@ User Stories:
 
 
 [image-search-app](https://fhirt-image-search-abstraction.herokuapp.com/)
+
+
+## technologies and tools used
+- node.js
+- heroku
+- github
+- atom
